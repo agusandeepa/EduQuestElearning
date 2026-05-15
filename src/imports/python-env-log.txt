@@ -1,0 +1,354 @@
+2026-03-04 16:44:07.974 [info] Python-envs extension version: 1.20.1
+2026-03-04 16:44:07.974 [info] 
+=== Python Envs Configuration Levels ===
+2026-03-04 16:44:07.974 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-03-04 16:44:07.974 [info] [pet] Starting Python Locator c:\Users\Asus\.vscode\extensions\ms-python.vscode-python-envs-1.20.1-win32-x64\python-env-tools\bin\pet.exe server
+2026-03-04 16:44:07.974 [info] Using conda from persistent state: C:\Users\Asus\anaconda3\Scripts\conda.exe
+2026-03-04 16:44:07.974 [info] Found global conda sourcing script at: C:\Users\Asus\anaconda3\Scripts\activate.bat
+2026-03-04 16:44:07.974 [info] Conda hook found at: C:\Users\Asus\anaconda3\shell\condabin\conda-hook.ps1
+2026-03-04 16:44:07.974 [info] conda.sh found in C:\Users\Asus\anaconda3\etc\profile.d\conda.sh
+2026-03-04 16:44:07.974 [info] Conda Sourcing Status:
+├─ Conda Path: C:\Users\Asus\anaconda3\Scripts\conda.exe
+├─ Conda Folder: C:\Users\Asus\anaconda3
+├─ Active on Launch: false
+├─ Global Sourcing Script: C:\Users\Asus\anaconda3\Scripts\activate.bat
+└─ Shell-specific Sourcing Scripts:
+   ├─ C:\Users\Asus\anaconda3\shell\condabin\conda-hook.ps1
+   ├─ C:\Users\Asus\anaconda3\etc\profile.d\conda.sh
+   └─ C:\Users\Asus\anaconda3\Scripts\activate.bat
+2026-03-04 16:44:08.039 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["c:\\Users\\Asus\\Desktop\\History Learning Website UI"],"environmentDirectories":["c:/Users/Asus/Desktop/History Learning Website UI/**/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"c:\\Users\\Asus\\AppData\\Roaming\\Code\\User\\globalStorage\\ms-python.vscode-python-envs\\pythonLocator"}
+2026-03-04 16:44:14.716 [info] Discovered env: C:\Python313\python.exe
+2026-03-04 16:44:14.722 [info] Discovered env: C:\Users\Asus\AppData\Local\Programs\Python\Python311\python.exe
+2026-03-04 16:44:14.727 [error] [pet] [2m   6.804825000s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Conda in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:44:14.826 [error] [pet] [2m   6.903314600s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Python in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:44:14.828 [error] [pet] [2m   6.905528600s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Python in "C:\\Users\\Asus\\anaconda3\\envs\\pandas", trying slower approach
+
+2026-03-04 16:44:14.844 [error] [pet] [2m   6.921860500s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Conda in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:44:14.847 [info] Discovered manager: (Conda) C:\Users\Asus\anaconda3\Scripts\conda.exe
+2026-03-04 16:44:14.847 [info] Discovered env: C:\Users\Asus\anaconda3\python.exe
+2026-03-04 16:44:14.848 [error] [pet] [2m   6.926571800s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Conda in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:44:14.851 [info] Discovered env: C:\Users\Asus\anaconda3\envs\pandas\python.exe
+2026-03-04 16:44:14.873 [info] Discovered env: c:\python313\python.exe
+2026-03-04 16:44:15.497 [error] [pet] [2m   7.572080800s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Python Execution for "\\\\?\\C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe" produced an output "" without a separator
+[2m   7.572914900s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "\\\\?\\C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe"
+
+2026-03-04 16:44:15.811 [error] [pet] [2m   7.889728300s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Python Execution for "\\\\?\\C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python3.exe" produced an output "" without a separator
+[2m   7.889783300s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "\\\\?\\C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python3.exe"
+
+2026-03-04 16:44:16.281 [error] [pet] [2m   8.359156900s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Python in "C:\\Users\\Asus\\anaconda3\\envs\\pandas", trying slower approach
+
+2026-03-04 16:44:16.281 [error] [pet] [2m   8.359596700s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Python in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:44:16.387 [info] Python API: Changed environment from undefined to Python 3.13.5 for: c:\Users\Asus\Desktop\History Learning Website UI
+2026-03-04 16:44:16.387 [info] Internal: Changed environment from undefined to Python 3.13.5 for: c:\Users\Asus\Desktop\History Learning Website UI
+2026-03-04 16:44:16.387 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":1569,"breakdown":{"GlobalVirtualEnvs":9,"Locators":1569,"Path":1095,"Workspaces":105},"locators":{"Conda":1566,"PipEnv":3,"Pixi":0,"Poetry":3,"PyEnv":2,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0,"WinPython":921,"WindowsRegistry":136,"WindowsStore":1}}}}
+2026-03-04 16:44:16.451 [error] [pet] [2m   8.492655300s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Conda in "C:\\Users\\Asus\\anaconda3", trying slower approach
+[2m   8.500375900s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Python in "C:\\Users\\Asus\\anaconda3\\envs\\pandas", trying slower approach
+[2m   8.501010700s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Python in "C:\\Users\\Asus\\anaconda3", trying slower approach
+[2m   8.506948800s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Conda in "C:\\Users\\Asus\\anaconda3", trying slower approach
+[2m   8.512517700s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Conda in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:44:16.453 [info] Discovered env: C:\Python313\python.exe
+2026-03-04 16:44:16.453 [info] Discovered env: C:\Users\Asus\AppData\Local\Programs\Python\Python311\python.exe
+2026-03-04 16:44:16.462 [info] Discovered manager: (Conda) C:\Users\Asus\anaconda3\Scripts\conda.exe
+2026-03-04 16:44:16.464 [info] Discovered env: C:\Users\Asus\anaconda3\python.exe
+2026-03-04 16:44:16.464 [info] Discovered env: C:\Users\Asus\anaconda3\envs\pandas\python.exe
+2026-03-04 16:44:16.464 [info] Discovered env: c:\python313\python.exe
+2026-03-04 16:44:16.681 [error] [pet] [2m   8.759826400s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Python in "C:\\Users\\Asus\\anaconda3\\envs\\pandas", trying slower approach
+
+2026-03-04 16:44:16.682 [error] [pet] [2m   8.760233200s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Python in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:44:16.736 [error] [pet] [2m   8.813974800s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Python Execution for "\\\\?\\C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe" produced an output "" without a separator
+[2m   8.814046100s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "\\\\?\\C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe"
+
+2026-03-04 16:44:17.019 [error] [pet] [2m   9.097665000s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Python Execution for "\\\\?\\C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python3.exe" produced an output "" without a separator
+[2m   9.097722600s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "\\\\?\\C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python3.exe"
+
+2026-03-04 16:44:17.028 [info] Poetry not found, turning off poetry features.
+2026-03-04 16:44:17.028 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":621,"breakdown":{"GlobalVirtualEnvs":7,"Locators":284,"Path":620,"Workspaces":64},"locators":{"Conda":282,"PipEnv":5,"Pixi":0,"Poetry":4,"PyEnv":2,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0,"WinPython":134,"WindowsRegistry":37,"WindowsStore":0}}}}
+2026-03-04 16:44:17.034 [info] Discovered env: C:\Python313\python.exe
+2026-03-04 16:44:17.048 [info] Discovered env: C:\Users\Asus\AppData\Local\Programs\Python\Python311\python.exe
+2026-03-04 16:44:17.050 [error] [pet] [2m   9.128455300s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Conda in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:44:17.060 [error] [pet] [2m   9.135109300s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Python in "C:\\Users\\Asus\\anaconda3\\envs\\pandas", trying slower approach
+[2m   9.136206600s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Python in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:44:17.063 [error] [pet] [2m   9.141013500s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Conda in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:44:17.064 [info] Discovered manager: (Conda) C:\Users\Asus\anaconda3\Scripts\conda.exe
+2026-03-04 16:44:17.064 [info] Discovered env: C:\Users\Asus\anaconda3\python.exe
+2026-03-04 16:44:17.065 [error] [pet] [2m   9.143498700s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Conda in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:44:17.067 [info] Discovered env: C:\Users\Asus\anaconda3\envs\pandas\python.exe
+2026-03-04 16:44:17.078 [info] Discovered env: c:\python313\python.exe
+2026-03-04 16:44:17.330 [error] [pet] [2m   9.406747500s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Python in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:44:17.331 [error] [pet] [2m   9.409454300s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Python in "C:\\Users\\Asus\\anaconda3\\envs\\pandas", trying slower approach
+
+2026-03-04 16:44:17.405 [error] [pet] [2m   9.483246600s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Python Execution for "\\\\?\\C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe" produced an output "" without a separator
+[2m   9.483331300s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "\\\\?\\C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe"
+
+2026-03-04 16:44:17.809 [error] [pet] [2m   9.880194000s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Python Execution for "\\\\?\\C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python3.exe" produced an output "" without a separator
+[2m   9.880247900s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "\\\\?\\C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python3.exe"
+
+2026-03-04 16:44:17.813 [info] Pipenv not found
+2026-03-04 16:44:17.814 [info] Pipenv not found, turning off pipenv features. If you have pipenv installed in a non-standard location, set the "python.pipenvPath" setting.
+2026-03-04 16:44:17.814 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":771,"breakdown":{"GlobalVirtualEnvs":4,"Locators":302,"Path":770,"Workspaces":40},"locators":{"Conda":299,"PipEnv":5,"Pixi":0,"Poetry":2,"PyEnv":1,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0,"WinPython":122,"WindowsRegistry":34,"WindowsStore":0}}}}
+2026-03-04 16:44:17.819 [info] Discovered env: C:\Python313\python.exe
+2026-03-04 16:44:17.824 [info] Discovered env: C:\Users\Asus\AppData\Local\Programs\Python\Python311\python.exe
+2026-03-04 16:44:17.827 [error] [pet] [2m   9.904604500s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Conda in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:44:17.834 [error] [pet] [2m   9.911669900s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Python in "C:\\Users\\Asus\\anaconda3\\envs\\pandas", trying slower approach
+
+2026-03-04 16:44:17.835 [error] [pet] [2m   9.912260200s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Python in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:44:17.837 [error] [pet] [2m   9.915528800s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Conda in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:44:17.840 [info] Discovered manager: (Conda) C:\Users\Asus\anaconda3\Scripts\conda.exe
+2026-03-04 16:44:17.841 [info] Discovered env: C:\Users\Asus\anaconda3\python.exe
+2026-03-04 16:44:17.843 [error] [pet] [2m   9.920612700s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Conda in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:44:17.845 [info] Discovered env: C:\Users\Asus\anaconda3\envs\pandas\python.exe
+2026-03-04 16:44:17.855 [info] Discovered env: c:\python313\python.exe
+2026-03-04 16:44:18.226 [error] [pet] [2m  10.304160500s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Python in "C:\\Users\\Asus\\anaconda3\\envs\\pandas", trying slower approach
+
+2026-03-04 16:44:18.232 [error] [pet] [2m  10.310830700s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Python in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:44:18.471 [error] [pet] [2m  10.549356800s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Python Execution for "\\\\?\\C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe" produced an output "" without a separator
+[2m  10.549438400s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "\\\\?\\C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe"
+
+2026-03-04 16:44:18.794 [error] [pet] [2m  10.872233500s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Python Execution for "\\\\?\\C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python3.exe" produced an output "" without a separator
+[2m  10.872323900s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "\\\\?\\C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python3.exe"
+
+2026-03-04 16:44:18.795 [info] Pyenv not found, turning off pyenv features.
+2026-03-04 16:44:18.796 [info] [interpreterSelection] Applying initial environment selection for 1 workspace folder(s)
+2026-03-04 16:44:18.797 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":978,"breakdown":{"GlobalVirtualEnvs":6,"Locators":426,"Path":978,"Workspaces":44},"locators":{"Conda":420,"PipEnv":2,"Pixi":0,"Poetry":2,"PyEnv":1,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0,"WinPython":156,"WindowsRegistry":28,"WindowsStore":1}}}}
+2026-03-04 16:44:18.808 [info] [interpreterSelection] History Learning Website UI: Python 3.13.5 (source: autoDiscovery)
+2026-03-04 16:44:18.824 [info] [interpreterSelection] global: Python 3.13.5 (source: autoDiscovery)
+2026-03-04 16:44:18.866 [info] Python API: Changed environment from undefined to Python 3.13.5 for: global
+2026-03-04 16:44:18.866 [info] Internal: Changed environment from undefined to Python 3.13.5 for: global
+2026-03-04 16:47:00.545 [info] Discovered env: C:\Python313\python.exe
+2026-03-04 16:47:00.564 [info] Discovered env: C:\Users\Asus\AppData\Local\Programs\Python\Python311\python.exe
+2026-03-04 16:47:00.591 [error] [pet] [2m 172.668451600s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Conda in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:47:00.724 [error] [pet] [2m 172.799063300s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Python in "C:\\Users\\Asus\\anaconda3", trying slower approach
+[2m 172.800582000s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Python in "C:\\Users\\Asus\\anaconda3\\envs\\pandas", trying slower approach
+
+2026-03-04 16:47:00.750 [error] [pet] [2m 172.821056400s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Conda in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:47:00.755 [info] Discovered manager: (Conda) C:\Users\Asus\anaconda3\Scripts\conda.exe
+2026-03-04 16:47:00.755 [info] Discovered env: C:\Users\Asus\anaconda3\python.exe
+2026-03-04 16:47:00.757 [error] [pet] [2m 172.834228100s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Conda in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:47:00.766 [info] Discovered env: C:\Users\Asus\anaconda3\envs\pandas\python.exe
+2026-03-04 16:47:00.791 [info] Discovered env: c:\python313\python.exe
+2026-03-04 16:47:03.006 [error] [pet] [2m 175.084114600s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Python Execution for "\\\\?\\C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe" produced an output "" without a separator
+[2m 175.084457900s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "\\\\?\\C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe"
+
+2026-03-04 16:47:03.032 [error] [pet] [2m 175.109939100s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Python in "C:\\Users\\Asus\\anaconda3\\envs\\pandas", trying slower approach
+
+2026-03-04 16:47:03.067 [error] [pet] [2m 175.144740300s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Python in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:47:04.380 [error] [pet] [2m 176.457922100s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Python Execution for "\\\\?\\C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python3.exe" produced an output "" without a separator
+[2m 176.457969500s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "\\\\?\\C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python3.exe"
+
+2026-03-04 16:47:04.384 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":4450,"breakdown":{"GlobalVirtualEnvs":35,"Locators":3054,"Path":4248,"Workspaces":999},"locators":{"Conda":2532,"PipEnv":4,"Pixi":0,"Poetry":104,"PyEnv":9,"Uv":45,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0,"WinPython":2343,"WindowsRegistry":282,"WindowsStore":2}}}}
+2026-03-04 16:49:43.217 [info] Resolved Python Environment c:\python313\python.exe
+2026-03-04 16:49:43.229 [info] Resolved Python Environment c:\python313\python.exe
+2026-03-04 16:49:43.230 [info] Refreshing conda environments (hardRefresh=false)
+2026-03-04 16:49:43.232 [info] Using conda from cache: C:\Users\Asus\anaconda3\Scripts\conda.exe
+2026-03-04 16:49:43.233 [info] Found local activation script at: C:\Users\Asus\anaconda3\Scripts\activate, adding to cache.
+2026-03-04 16:49:43.234 [info] Found local activation script at: C:\Users\Asus\anaconda3\Scripts\activate, adding to cache.
+2026-03-04 16:49:43.234 [info] Conda hook found at: C:\Users\Asus\anaconda3\shell\condabin\conda-hook.ps1
+2026-03-04 16:49:43.235 [info] === Conda Shell Activation Map Generation ===
+Environment Configuration:
+    - Identifier: "base"
+    - Prefix: "C:\Users\Asus\anaconda3"
+    - Name: "base"
+
+Local Activation:
+    - Status: Found
+    - Path: C:\Users\Asus\anaconda3\Scripts\activate
+
+Preferred Sourcing:
+    - Selected Path: C:\Users\Asus\anaconda3\Scripts\activate
+    - Source: Local
+
+✓ Using Windows-specific activation configuration
+==========================================
+2026-03-04 16:49:43.236 [info] Found base environment: C:\Users\Asus\anaconda3
+2026-03-04 16:49:43.236 [info] Conda hook found at: C:\Users\Asus\anaconda3\shell\condabin\conda-hook.ps1
+2026-03-04 16:49:43.236 [info] === Conda Shell Activation Map Generation ===
+Environment Configuration:
+    - Identifier: "pandas"
+    - Prefix: "C:\Users\Asus\anaconda3\envs\pandas"
+    - Name: "pandas"
+
+Local Activation:
+    - Status: Found
+    - Path: C:\Users\Asus\anaconda3\Scripts\activate
+
+Preferred Sourcing:
+    - Selected Path: C:\Users\Asus\anaconda3\Scripts\activate
+    - Source: Local
+
+✓ Using Windows-specific activation configuration
+==========================================
+2026-03-04 16:49:43.236 [info] Found named environment: pandas at C:\Users\Asus\anaconda3\envs\pandas
+2026-03-04 16:49:43.247 [info] Resolved Python Environment c:\python313\python.exe
+2026-03-04 16:50:06.928 [info] Resolved Python Environment c:\python313\python.exe
+2026-03-04 16:50:06.940 [info] Resolved Python Environment c:\python313\python.exe
+2026-03-04 16:50:06.950 [info] Resolved Python Environment c:\python313\python.exe
+2026-03-04 16:50:26.958 [info] Resolved Python Environment c:\python313\python.exe
+2026-03-04 16:50:27.023 [info] Resolved Python Environment c:\python313\python.exe
+2026-03-04 16:50:27.072 [info] Discovered env: C:\Python313\python.exe
+2026-03-04 16:50:27.091 [info] Discovered env: C:\Users\Asus\AppData\Local\Programs\Python\Python311\python.exe
+2026-03-04 16:50:27.104 [error] [pet] [2m 379.181836300s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Conda in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:50:27.137 [error] [pet] [2m 379.208035700s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Python in "C:\\Users\\Asus\\anaconda3\\envs\\pandas", trying slower approach
+[2m 379.210762800s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Python in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:50:27.154 [error] [pet] [2m 379.231462300s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Conda in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:50:27.170 [info] Discovered manager: (Conda) C:\Users\Asus\anaconda3\Scripts\conda.exe
+2026-03-04 16:50:27.170 [error] [pet] [2m 379.248958700s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Conda in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:50:27.171 [info] Discovered env: C:\Users\Asus\anaconda3\python.exe
+2026-03-04 16:50:27.174 [info] Discovered env: C:\Users\Asus\anaconda3\envs\pandas\python.exe
+2026-03-04 16:50:27.189 [info] Resolved Python Environment c:\python313\python.exe
+2026-03-04 16:50:27.216 [info] Discovered env: c:\python313\python.exe
+2026-03-04 16:50:27.642 [error] [pet] [2m 379.719826600s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Python Execution for "\\\\?\\C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe" produced an output "" without a separator
+[2m 379.719888400s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "\\\\?\\C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe"
+
+2026-03-04 16:50:28.054 [error] [pet] [2m 380.132498600s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Python in "C:\\Users\\Asus\\anaconda3\\envs\\pandas", trying slower approach
+
+2026-03-04 16:50:28.056 [error] [pet] [2m 380.133521200s[0m [33m WARN[0m [2mpet_conda::package[0m[2m:[0m Unable to find conda package Python in "C:\\Users\\Asus\\anaconda3", trying slower approach
+
+2026-03-04 16:50:28.264 [error] [pet] [2m 380.339837600s[0m [31mERROR[0m [2mpet_python_utils::env[0m[2m:[0m Python Execution for "\\\\?\\C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python3.exe" produced an output "" without a separator
+[2m 380.340196700s[0m [33m WARN[0m [2mpet::find[0m[2m:[0m Unknown Python Env "\\\\?\\C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python3.exe"
+
+2026-03-04 16:50:28.268 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":1224,"breakdown":{"GlobalVirtualEnvs":23,"Locators":1016,"Path":1222,"Workspaces":91},"locators":{"Conda":986,"PipEnv":5,"Pixi":0,"Poetry":5,"PyEnv":2,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0,"WinPython":285,"WindowsRegistry":107,"WindowsStore":0}}}}
+2026-03-04 16:50:57.706 [info] Resolved Python Environment c:\python313\python.exe
+2026-03-04 16:50:57.726 [info] Resolved Python Environment c:\python313\python.exe
+2026-03-04 16:50:57.735 [info] Resolved Python Environment c:\python313\python.exe
+2026-03-04 16:54:08.777 [info] Resolved Python Environment c:\python313\python.exe
+2026-03-04 16:54:08.786 [info] Resolved Python Environment c:\python313\python.exe
+2026-03-04 16:54:08.800 [info] Resolved Python Environment c:\python313\python.exe
+2026-03-04 16:54:22.513 [info] Running: uv --version
+2026-03-04 16:54:22.528 [info] Running: c:\python313\python.exe -m pip list
+2026-03-04 16:54:23.102 [info] python: Package Version
+
+2026-03-04 16:54:23.102 [info] python: ------- -------
+pip     25.1.1
+
+2026-03-04 16:54:33.548 [info] Running: c:\python313\python.exe -m venv c:\Users\Asus\Desktop\History Learning Website UI\.venv
+2026-03-04 16:54:51.619 [info] Resolved Python Environment c:\Users\Asus\Desktop\History Learning Website UI\.venv\Scripts\python.exe
+2026-03-04 16:54:51.651 [info] Running: c:\Users\Asus\Desktop\History Learning Website UI\.venv\Scripts\python.exe -m pip install -r c:\Users\Asus\Desktop\History Learning Website UI\backend\requirements.txt
+2026-03-04 16:54:58.751 [info] python: Collecting fastapi==0.109.0 (from -r c:\Users\Asus\Desktop\History Learning Website UI\backend\requirements.txt (line 1))
+
+2026-03-04 16:54:58.849 [info] python:   Using cached fastapi-0.109.0-py3-none-any.whl.metadata (24 kB)
+
+2026-03-04 16:54:59.183 [info] python: Collecting uvicorn==0.27.0 (from uvicorn[standard]==0.27.0->-r c:\Users\Asus\Desktop\History Learning Website UI\backend\requirements.txt (line 2))
+
+2026-03-04 16:54:59.212 [info] python:   Using cached uvicorn-0.27.0-py3-none-any.whl.metadata (6.4 kB)
+
+2026-03-04 16:55:00.101 [info] python: Collecting sqlalchemy==2.0.25 (from -r c:\Users\Asus\Desktop\History Learning Website UI\backend\requirements.txt (line 3))
+
+2026-03-04 16:55:00.169 [info] python:   Using cached SQLAlchemy-2.0.25-py3-none-any.whl.metadata (9.6 kB)
+
+2026-03-04 16:55:00.538 [info] python: Collecting psycopg2-binary==2.9.9 (from -r c:\Users\Asus\Desktop\History Learning Website UI\backend\requirements.txt (line 4))
+
+2026-03-04 16:55:00.604 [info] python:   Using cached psycopg2-binary-2.9.9.tar.gz (384 kB)
+
+2026-03-04 16:55:01.635 [info] python:   Installing build dependencies: started
+
+2026-03-04 16:55:07.533 [info] python:   Installing build dependencies: finished with status 'done'
+
+2026-03-04 16:55:07.535 [info] python:   Getting requirements to build wheel: started
+
+2026-03-04 16:55:09.636 [info] python:   Getting requirements to build wheel: finished with status 'error'
+
+2026-03-04 16:55:09.644 [info] python:   error
+2026-03-04 16:55:09.644 [info] python: : subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [34 lines of output]
+      C:\Users\Asus\AppData\Local\Temp\pip-build-env-usjixdpx\overlay\Lib\site-packages\setuptools\dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+      !!
+      
+              ********************************************************************************
+              Please consider removing the following classifiers in favor of a SPDX license expression:
+      
+              License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+      
+              See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+              ********************************************************************************
+      
+      !!
+2026-03-04 16:55:09.644 [info] python: 
+        self._finalize_license_expression()
+      running egg_info
+      writing psycopg2_binary.egg-info\PKG-INFO
+      writing dependency_links to psycopg2_binary.egg-info\dependency_links.txt
+      writing top-level names to psycopg2_binary.egg-info\top_level.txt
+      
+      Error: pg_config executable not found.
+      
+      pg_config is required to build psycopg2 from source.  Please add the directory
+      containing pg_config to the $PATH or specify the full executable path with the
+
+2026-03-04 16:55:09.644 [info] python:       option:
+      
+          python setup.py build_ext --pg-config /path/to/pg_config build ...
+      
+      or with the pg_config option in 'setup.cfg'.
+      
+      If you prefer to avoid building psycopg2 from source, please install the PyPI
+      'psycopg2-binary' package instead.
+      
+2026-03-04 16:55:09.645 [info] python: 
+      For further information please check the 'doc/src/install.rst' file (also at
+      <https://www.psycopg.org/docs/install.html>).
+      
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+
+2026-03-04 16:55:09.964 [info] python: 
+[notice] A new release of pip is available: 25.1.1 -> 26.0.1
+[notice] To update, run: c:\Users\Asus\Desktop\History Learning Website UI\.venv\Scripts\python.exe -m pip install --upgrade pip
+
+2026-03-04 16:55:09.965 [info] python: error: subprocess-exited-with-error
+
+× Getting requirements to build wheel did not run successfully.
+│ exit code: 1
+╰─> See above for output.
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
+
+2026-03-04 16:55:10.361 [error] Error managing packages Failed to run python -m pip install -r c:\Users\Asus\Desktop\History Learning Website UI\backend\requirements.txt
+2026-03-04 16:55:11.004 [info] Running: c:\python313\python.exe -m pip list
+2026-03-04 16:55:11.517 [info] python: Package Version
+
+2026-03-04 16:55:11.518 [info] python: ------- -------
+pip     25.1.1
+

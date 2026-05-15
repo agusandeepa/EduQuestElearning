@@ -1,0 +1,1521 @@
+import type { Lesson } from './types';
+
+// Grade 10 & 11 O/L Mathematics Lessons - Sinhala Version
+// ශ්‍රේණිය 10 සහ 11 - ගණිතය (සිංහල)
+
+export const MATHS_SINHALA_LESSONS: Lesson[] = [
+  // ===== ඒකකය 1: සංඛ්‍යා පද්ධති =====
+  {
+    id: 1001,
+    title: "සංඛ්‍යා පද්ධති - ස්වාභාවික සංඛ්‍යා සහ පූර්ණ සංඛ්‍යා",
+    description: "ස්වාභාවික සංඛ්‍යා, පූර්ණ සංඛ්‍යා සහ සංඛ්‍යා රේඛාව මත ඒවායේ ගති ලක්ෂණ අවබෝධ කර ගැනීම.",
+    level: 1,
+    xp_reward: 50,
+    content: {
+      text: `සංඛ්‍යා පද්ධති (Number Systems)
+
+ස්වාභාවික සංඛ්‍යා (Natural Numbers):
+• ගණනය කිරීමට භාවිත සංඛ්‍යා: 1, 2, 3, 4, 5, ...
+• ධන පූර්ණ සංඛ්‍යා ලෙසද හැඳින්වේ
+• සංකේතය: ℕ
+
+සම්පූර්ණ සංඛ්‍යා (Whole Numbers):
+• ස්වාභාවික සංඛ්‍යා + ශූන්‍යය: 0, 1, 2, 3, ...
+• සංකේතය: W
+
+පූර්ණ සංඛ්‍යා (Integers):
+• ධන සහ ඍණ සම්පූර්ණ සංඛ්‍යා + ශූන්‍යය
+• ..., -3, -2, -1, 0, 1, 2, 3, ...
+• සංකේතය: ℤ
+
+සංඛ්‍යා රේඛාව (Number Line):
+• සරල රේඛාවක් මත පූර්ණ සංඛ්‍යා නිරූපණය කෙරේ
+• ශූන්‍යය මැද ස්ථානයේ ඇත
+• ධන සංඛ්‍යා දකුණට යති
+• ඍණ සංඛ්‍යා වමට යති
+
+පූර්ණ සංඛ්‍යා අනුපිළිවෙල:
+• -5 < -3 < -1 < 0 < 2 < 4
+• සංඛ්‍යා රේඛාවේ දකුණට ගිය විට අගය වැඩිවේ
+
+නිරපේක්ෂ අගය (Absolute Value):
+• සංඛ්‍යා රේඛාවේ ශූන්‍යයේ සිට දුර
+• |5| = 5, |-5| = 5, |0| = 0
+• සෑම විටම ඍණ නොවේ
+
+පූර්ණ සංඛ්‍යා ඇතිරිය:
+• සංකලනය: (-3) + (-4) = -7 | 5 + (-3) = 2
+• අඩු කිරීම: 5 - (-3) = 5 + 3 = 8
+• ගුණ කිරීම: (-3) × (-4) = 12 | (-3) × 4 = -12
+• බෙදීම: (-12) ÷ (-3) = 4 | (-12) ÷ 3 = -4
+
+ලකුණු රීති:
+• (+) × (+) = (+) | (-) × (-) = (+)
+• (+) × (-) = (-) | (-) × (+) = (-)`
+    },
+    quiz: {
+      questions: [
+        {
+          id: 1,
+          question: "පහත සඳහන් කුමක් පූර්ණ සංඛ්‍යාවක් නොවේද?",
+          options: ["-5", "0", "3.5", "100"],
+          correct_answer: 2,
+        },
+        {
+          id: 2,
+          question: "(-4) × (-3) හි අගය කුමක්ද?",
+          options: ["-12", "12", "-7", "7"],
+          correct_answer: 1,
+        },
+        {
+          id: 3,
+          question: "-8 හි නිරපේක්ෂ අගය කුමක්ද?",
+          options: ["-8", "0", "8", "-1/8"],
+          correct_answer: 2,
+        },
+        {
+          id: 4,
+          question: "සංඛ්‍යා රේඛාවේ නිවැරදි දෙය කුමක්ද?",
+          options: ["-3 > 2", "-5 > -1", "0 < -4", "-2 < 1"],
+          correct_answer: 3,
+        },
+        {
+          id: 5,
+          question: "(-15) ÷ 3 = ?",
+          options: ["5", "-5", "45", "-45"],
+          correct_answer: 1,
+        },
+      ],
+    },
+  },
+
+  {
+    id: 1002,
+    title: "භාග, දශම සහ ප්‍රතිශතය",
+    description: "භාග, දශම සහ ප්‍රතිශතය අතර පරිවර්තනය; තාර්කික සංඛ්‍යා සමඟ ඇතිරිය.",
+    level: 1,
+    xp_reward: 50,
+    content: {
+      text: `භාග, දශම සහ ප්‍රතිශතය
+
+භාග (Fractions):
+• හරය (denominator) - බෙදෙන ප්‍රමාණ ගණන
+• ලව (numerator) - ගත් ප්‍රමාණ ගණන
+• නිදසුන: 3/4 - සම්පූර්ණයෙන් 4 කොටස් අතරින් 3 කොටස
+
+සමාන භාග (Equivalent Fractions):
+• 1/2 = 2/4 = 3/6 = 4/8
+• ලව සහ හරය එකම සංඛ්‍යාවකින් ගුණ/බෙද කළ හැක
+
+භාග ඇතිරිය:
+• සකලනය: 1/4 + 2/4 = 3/4 (හරය සමාන නම්)
+• ගුණ කිරීම: 2/3 × 3/4 = 6/12 = 1/2
+• බෙදීම: 2/3 ÷ 1/4 = 2/3 × 4/1 = 8/3
+
+දශම (Decimals):
+• 0.5 = 5/10 = 1/2
+• 0.25 = 25/100 = 1/4
+• 0.75 = 75/100 = 3/4
+
+ප්‍රතිශතය (Percentages):
+• % = ශතකයෙන් කොටස
+• 50% = 50/100 = 0.5 = 1/2
+• 25% = 25/100 = 0.25 = 1/4
+
+පරිවර්තනය:
+• භාගය → ප්‍රතිශතය: 3/4 × 100 = 75%
+• ප්‍රතිශතය → දශමය: 35% ÷ 100 = 0.35
+• දශමය → භාගය: 0.6 = 6/10 = 3/5
+
+ප්‍රතිශත ගැටළු:
+• 80 හි 25% = 80 × 0.25 = 20
+• ලාභ/අලාභ ගණනය: මිලදී ගත් මිල, විකිණූ මිල`
+    },
+    quiz: {
+      questions: [
+        {
+          id: 1,
+          question: "3/5 ප්‍රතිශතයකට පරිවර්තනය කළ විට?",
+          options: ["35%", "53%", "60%", "30%"],
+          correct_answer: 2,
+        },
+        {
+          id: 2,
+          question: "120 හි 15% කොපමණද?",
+          options: ["12", "15", "18", "20"],
+          correct_answer: 2,
+        },
+        {
+          id: 3,
+          question: "0.375 දශමය භාගයකට පරිවර්තනය?",
+          options: ["3/7", "3/8", "37/100", "1/3"],
+          correct_answer: 1,
+        },
+        {
+          id: 4,
+          question: "2/3 ÷ 1/6 = ?",
+          options: ["1/9", "4", "2/18", "12"],
+          correct_answer: 1,
+        },
+        {
+          id: 5,
+          question: "රු.500 ක් 20% ලාභයකින් විකුණනු ලැබේ. විකිණුම් මිල කීයද?",
+          options: ["රු.400", "රු.520", "රු.600", "රු.580"],
+          correct_answer: 2,
+        },
+      ],
+    },
+  },
+
+  {
+    id: 1003,
+    title: "අනුපාතය සහ සමානුපාතය",
+    description: "අනුපාත, ඍජු සහ ප්‍රතිලෝම සමානුපාතය, සහ සමානුපාත ගැටළු විසඳීම.",
+    level: 1,
+    xp_reward: 50,
+    content: {
+      text: `අනුපාතය සහ සමානුපාතය
+
+අනුපාතය (Ratio):
+• ප්‍රමාණ දෙකක් සංසන්දනය කිරීම
+• a:b ලෙස ලිවිය හැක
+• නිදසුන: 2:3 = 4:6 = 6:9
+
+සරල කිරීම:
+• 12:18 = 2:3 (6 ලෙස බෙදීමෙන්)
+• 15:25 = 3:5 (5 ලෙස බෙදීමෙන්)
+
+ඍජු සමානුපාතය (Direct Proportion):
+• එක් රාශියක් වැඩිවන විට අනෙකද වැඩිවේ
+• y ∝ x → y = kx (k = නියතය)
+• නිදසුන: ගත් කෙසෙල් ගණන ↑ → ගෙවන මිල ↑
+
+ප්‍රතිලෝම සමානුපාතය (Inverse Proportion):
+• එක් රාශියක් වැඩිවන විට අනෙක අඩුවේ
+• y ∝ 1/x → xy = k
+• නිදසුන: කම්කරුවන් ↑ → වැඩ ඉවර කරන කාලය ↓
+
+සමානුපාත ගැටළු:
+• 3:5 ලෙස කොටස් 2 ට රු.240 ක් බෙදන්න
+  → සම්පූර්ණ කොටස් = 3+5 = 8
+  → එක් කොටස = 240/8 = රු.30
+  → 3 කොටස = 90, 5 කොටස = 150
+
+ප්‍රතිශතය සහ අනුපාතය:
+• 2:3:5 → 20%, 30%, 50% ලෙස ප්‍රකාශ කළ හැක`
+    },
+    quiz: {
+      questions: [
+        {
+          id: 1,
+          question: "24:36 සරල ස්වරූපය?",
+          options: ["4:6", "2:3", "8:12", "6:9"],
+          correct_answer: 1,
+        },
+        {
+          id: 2,
+          question: "5 කම්කරුවන්ට දිනකට 8 ක් ඉදිකිරීමට ගත වේ. 10 කෙනෙකුට කොපමණ කාලයක් ගතවේද?",
+          options: ["16 දිනය", "4 දිනය", "10 දිනය", "2 දිනය"],
+          correct_answer: 1,
+        },
+        {
+          id: 3,
+          question: "3:4:5 ලෙස රු.480 ක් බෙදූ විට විශාලම කොටස?",
+          options: ["රු.120", "රු.160", "රු.200", "රු.144"],
+          correct_answer: 2,
+        },
+        {
+          id: 4,
+          question: "y x හා සාවධාන සමානුපාතීය වේ, x=4 ට y=12. x=6 ට y=?",
+          options: ["18", "14", "8", "24"],
+          correct_answer: 0,
+        },
+        {
+          id: 5,
+          question: "අ සහ ආ 2:3 අනුපාතයෙන් ලාභය බෙදාගති. ලාභය රු.750 නම් ආ ගේ කොටස?",
+          options: ["රු.300", "රු.250", "රු.450", "රු.500"],
+          correct_answer: 2,
+        },
+      ],
+    },
+  },
+
+  {
+    id: 1004,
+    title: "වීජීය ප්‍රකාශන",
+    description: "වීජීය ප්‍රකාශන සරල කිරීම, වරහන් විස්තාරණය, සහ සාධකීකරණය.",
+    level: 2,
+    xp_reward: 60,
+    content: {
+      text: `වීජීය ප්‍රකාශන (Algebraic Expressions)
+
+මූලික නිර්වචන:
+• විචලකය (variable): x, y, z - නොදන්නා සංඛ්‍යාවක් නිරූපණය කරයි
+• ගුණාංකය (coefficient): 3x හි 3
+• නියතය (constant): 5, -2 ආදිය
+• පදය (term): 3x, -2y, 5 ආදිය
+
+සමාන පද (Like Terms):
+• x² සහ 3x² - සමාන (x² ඇත)
+• 3x සහ 5y - අසමාන
+• 2xy සහ -4xy - සමාන
+
+ප්‍රකාශන සරල කිරීම:
+• 3x + 5x - 2x = 6x
+• 4a + 3b - 2a + b = 2a + 4b
+• 5x² - 3x + 2x² + x = 7x² - 2x
+
+වරහන් විස්තාරණය:
+• 3(x + 4) = 3x + 12
+• -2(x - 5) = -2x + 10
+• (x + 3)(x + 2) = x² + 5x + 6
+
+FOIL ක්‍රමය:
+• (a + b)(c + d) = ac + ad + bc + bd
+• (x + 3)(x - 2) = x² - 2x + 3x - 6 = x² + x - 6
+
+සාධකීකරණය (Factorisation):
+• සාමාන්‍ය සාධකය: 6x + 9 = 3(2x + 3)
+• වර්ග අනතර: a² - b² = (a+b)(a-b)
+• 4x² - 9 = (2x+3)(2x-3)
+• x² + bx + c: x² + 5x + 6 = (x+2)(x+3)`
+    },
+    quiz: {
+      questions: [
+        {
+          id: 1,
+          question: "3x + 4y - x + 2y සරල කරන්න.",
+          options: ["2x + 6y", "4x + 2y", "2x + 2y", "4x + 6y"],
+          correct_answer: 0,
+        },
+        {
+          id: 2,
+          question: "2(3x - 4) = ?",
+          options: ["6x - 4", "6x - 8", "5x - 6", "6x + 8"],
+          correct_answer: 1,
+        },
+        {
+          id: 3,
+          question: "(x + 5)(x - 2) = ?",
+          options: ["x² + 3x - 10", "x² - 3x - 10", "x² + 7x - 10", "x² + 3x + 10"],
+          correct_answer: 0,
+        },
+        {
+          id: 4,
+          question: "9x² - 16 සාධකීකරණය?",
+          options: ["(3x-4)(3x+4)", "(9x-4)(x+4)", "(3x-2)(3x+8)", "(3x+4)²"],
+          correct_answer: 0,
+        },
+        {
+          id: 5,
+          question: "x² + 7x + 12 සාධකීකරණය?",
+          options: ["(x+3)(x+4)", "(x+2)(x+6)", "(x+1)(x+12)", "(x+6)(x+2)"],
+          correct_answer: 0,
+        },
+      ],
+    },
+  },
+
+  {
+    id: 1005,
+    title: "සමීකරණ සහ අසමානතා",
+    description: "රේඛීය සමීකරණ, එකවර සමීකරණ, සහ රේඛීය අසමානතා විසඳීම.",
+    level: 2,
+    xp_reward: 60,
+    content: {
+      text: `සමීකරණ සහ අසමානතා
+
+රේඛීය සමීකරණ (Linear Equations):
+• x ගේ ඉහළ බලය 1 වේ
+• නිදසුන: 2x + 5 = 11
+  → 2x = 6 → x = 3
+
+සමීකරණ විසඳීමේ ක්‍රම:
+1. දෙපස සමාන ක්‍රියා කිරීම
+2. වරහන් ඇති නම් විස්තාරණය
+3. හරය ඉවත් කිරීම
+
+නිදසුන:
+• 3(x - 2) = 9
+• 3x - 6 = 9
+• 3x = 15
+• x = 5
+
+සූත්‍ර ලෙස:
+• P = 2(l + w) → l = (P/2 - w)
+• v = u + at → t = (v - u)/a
+
+එකවර සමීකරණ (Simultaneous Equations):
+• x + y = 10 සහ x - y = 4
+• සකලනය ක්‍රමය: 2x = 14 → x = 7, y = 3
+• ආදේශ ක්‍රමය: y = 10 - x → x - (10-x) = 4
+
+රේඛීය අසමානතා (Linear Inequalities):
+• > (ට වඩා විශාල), < (ට වඩා කුඩා)
+• ≥ (ට සමාන හෝ ඉහළ), ≤ (ට සමාන හෝ කුඩා)
+• 2x + 3 > 9 → 2x > 6 → x > 3
+• ⚠️ ඍණ සංඛ්‍යාවකින් ගුණ/බෙදූ විට ලකුණ ආපසු හැරේ!
+  -3x < 12 → x > -4`
+    },
+    quiz: {
+      questions: [
+        {
+          id: 1,
+          question: "5x - 8 = 22, x = ?",
+          options: ["2", "4", "6", "3"],
+          correct_answer: 2,
+        },
+        {
+          id: 2,
+          question: "2x + y = 10 සහ x - y = 2. x = ?",
+          options: ["3", "4", "5", "6"],
+          correct_answer: 1,
+        },
+        {
+          id: 3,
+          question: "3(2x - 1) = 15, x = ?",
+          options: ["2", "3", "4", "5"],
+          correct_answer: 1,
+        },
+        {
+          id: 4,
+          question: "-2x > 8 විසඳීමෙන්?",
+          options: ["x > -4", "x < -4", "x > 4", "x < 4"],
+          correct_answer: 1,
+        },
+        {
+          id: 5,
+          question: "v = u + at, v=30, u=10, a=5 නම් t = ?",
+          options: ["2", "3", "4", "8"],
+          correct_answer: 2,
+        },
+      ],
+    },
+  },
+
+  {
+    id: 1006,
+    title: "දර්ශක (බල සහ මූල)",
+    description: "දර්ශක නීති, ඍණ සහ භාග දර්ශක, සහ ප්‍රකාශන සරල කිරීම.",
+    level: 2,
+    xp_reward: 60,
+    content: {
+      text: `දර්ශක (Indices)
+
+මූලික නිර්වචන:
+• aⁿ = a × a × a... (n වාරයක්)
+• 2³ = 2 × 2 × 2 = 8
+• 3⁴ = 81
+
+දර්ශක නීති:
+1. aᵐ × aⁿ = aᵐ⁺ⁿ
+   → 2³ × 2⁴ = 2⁷ = 128
+
+2. aᵐ ÷ aⁿ = aᵐ⁻ⁿ
+   → 3⁵ ÷ 3² = 3³ = 27
+
+3. (aᵐ)ⁿ = aᵐⁿ
+   → (2³)² = 2⁶ = 64
+
+4. (ab)ⁿ = aⁿbⁿ
+   → (2x)³ = 8x³
+
+5. a⁰ = 1 (ශූන්‍ය නොවූ a ට)
+   → 5⁰ = 1, x⁰ = 1
+
+ඍණ දර්ශක:
+• a⁻ⁿ = 1/aⁿ
+• 2⁻³ = 1/2³ = 1/8
+• x⁻² = 1/x²
+
+භාග දර්ශක:
+• a^(1/n) = ⁿ√a (n-ආදේශ මූලය)
+• a^(m/n) = (ⁿ√a)ᵐ = ⁿ√(aᵐ)
+• 8^(1/3) = ³√8 = 2
+• 27^(2/3) = (³√27)² = 3² = 9
+
+ස්ටෑන්ඩ් ස්වරූප:
+• a × 10ⁿ, 1 ≤ a < 10
+• 450,000 = 4.5 × 10⁵`
+    },
+    quiz: {
+      questions: [
+        {
+          id: 1,
+          question: "x³ × x⁵ = ?",
+          options: ["x⁸", "x¹⁵", "x²", "2x⁸"],
+          correct_answer: 0,
+        },
+        {
+          id: 2,
+          question: "3⁻² = ?",
+          options: ["-9", "1/9", "9", "-1/9"],
+          correct_answer: 1,
+        },
+        {
+          id: 3,
+          question: "64^(1/3) = ?",
+          options: ["8", "4", "16", "32"],
+          correct_answer: 1,
+        },
+        {
+          id: 4,
+          question: "(2x²)³ = ?",
+          options: ["6x⁶", "8x⁶", "8x⁵", "2x⁶"],
+          correct_answer: 1,
+        },
+        {
+          id: 5,
+          question: "2.3 × 10⁴ = ?",
+          options: ["230", "2300", "23000", "230000"],
+          correct_answer: 2,
+        },
+      ],
+    },
+  },
+
+  {
+    id: 1007,
+    title: "රේඛා, කෝණ සහ ත්‍රිකෝණ",
+    description: "කෝණ වර්ග, කෝණ සම්බන්ධතා, ත්‍රිකෝණ ගති ලක්ෂණ සහ සර්‍ව සමානතා.",
+    level: 2,
+    xp_reward: 60,
+    content: {
+      text: `රේඛා, කෝණ සහ ත්‍රිකෝණ
+
+කෝණ වර්ග:
+• කෝණ රේඛා (Acute): 0° - 90°
+• සෘජු කෝණ (Right): 90°
+• ගිලි කෝණ (Obtuse): 90° - 180°
+• ඇල කෝණ (Straight): 180°
+• ඔවර ලන (Reflex): 180° - 360°
+
+කෝණ සම්බන්ධතා:
+• අනුපූරක (Supplementary): එකතුව = 180°
+• අනු (Complementary): එකතුව = 90°
+• සිරස් ලෙස ඉදිරි (Vertically opposite): සමාන
+• ස්ථානාන්තර කෝණ (Alternate): සමාන (සමාන්තර රේඛා)
+• ශ්‍රේණිගත (Co-interior): එකතුව = 180°
+
+ත්‍රිකෝණ:
+• ත්‍රිකෝණයක කෝණ ගොඩ = 180°
+• ත්‍රිකෝණ වර්ග: සමකක (Equilateral), ද්විපාර්ශ්ව (Isosceles), ශ්‍රේණිගත (Scalene)
+
+ත්‍රිකෝණ සර්‍ව සමානතා (Congruence):
+• SSS - පාදා තුනම සමාන
+• SAS - පාදා 2 ක් සහ ඇතිරි කෝණය
+• ASA - කෝණ 2 ක් සහ ඇතිරි පාදය
+• AAS - කෝණ 2 ක් සහ ශ්‍රේණිගත නොවූ පාදය
+• RHS - දකුණු කෝණ, කර්ණය, පාදය
+
+ශෝධ (Exterior Angle Theorem):
+• බාහිර කෝණය = ඇතිරි ස්ව-කෝණ 2 ගේ ගොඩ`
+    },
+    quiz: {
+      questions: [
+        {
+          id: 1,
+          question: "ත්‍රිකෝණයක කෝණ දෙකක් 65° සහ 75° නම් තෙවන කෝණය?",
+          options: ["30°", "40°", "50°", "60°"],
+          correct_answer: 1,
+        },
+        {
+          id: 2,
+          question: "සිරස් ලෙස ඉදිරි කෝණ 3x° සහ 75°. x = ?",
+          options: ["15", "25", "35", "30"],
+          correct_answer: 1,
+        },
+        {
+          id: 3,
+          question: "SSS ෙකෝන්ග්‍රූ රීතිය කෙ‍ සේ?",
+          options: ["කෝණ 3 ම සමාන", "පාදා 3 ම සමාන", "කෝණ 2 සහ පාදය", "කෝණ, පාද, කෝණ"],
+          correct_answer: 1,
+        },
+        {
+          id: 4,
+          question: "ස්ථානාන්තර කෝණ - කෙ‍ සේ සමාන?",
+          options: ["සදා සමාන", "ශ්‍රේණිගත රේඛා ඇත්නම් සමාන", "සමාන්තර රේඛා ඇත්නම් සමාන", "කිසිදා නොසමාන"],
+          correct_answer: 2,
+        },
+        {
+          id: 5,
+          question: "ත්‍රිකෝණයක බාහිර කෝණය 120°. ඇතිරි ස්ව-කෝණ 2 ගේ ගොඩ?",
+          options: ["60°", "120°", "240°", "360°"],
+          correct_answer: 1,
+        },
+      ],
+    },
+  },
+
+  {
+    id: 1008,
+    title: "පයිතගරස් ප්‍රමේය",
+    description: "දකුණු කෝණ ත්‍රිකෝණවල නොදන්නා පාදා සොයීමට පයිතගරස් ප්‍රමේය ෙයොදා ගැනීම.",
+    level: 2,
+    xp_reward: 60,
+    content: {
+      text: `පයිතගරස් ප්‍රමේය (Pythagoras' Theorem)
+
+ප්‍රකාශය:
+• දකුණු කෝණ ත්‍රිකෝණයක: a² + b² = c²
+• c = කර්ණය (hypotenuse) - දකුණු කෝණයට ඉදිරි විශාලම පාදය
+• a, b = ඇතිරි පාදා
+
+කර්ණය සොයීම:
+• a = 3, b = 4 → c² = 9 + 16 = 25 → c = 5
+• a = 5, b = 12 → c² = 25 + 144 = 169 → c = 13
+
+ලකුණ ශ්‍රේණිය (Pythagorean Triples):
+• (3, 4, 5), (5, 12, 13), (8, 15, 17)
+• (6, 8, 10) = 2(3, 4, 5)
+
+ඇතිරි පාදය සොයීම:
+• a² = c² - b²
+• a = 13, c = ? - ∴ b² = c² - a² → ← b² = 169 - 25 = 144 → b = 12
+
+ව්‍යවහාරික ඉලක්කම්:
+• ඒකාකාර හෙළා : 3-4-5 ත්‍රිකෝණ
+• Diagonal of rectangle: d = √(l² + w²)
+• 3D: Space diagonal = √(l² + w² + h²)
+
+දිග ගණනය:
+• ලකුණු (x₁,y₁) සිට (x₂,y₂): d = √((x₂-x₁)² + (y₂-y₁)²)`
+    },
+    quiz: {
+      questions: [
+        {
+          id: 1,
+          question: "a=6, b=8 ත්‍රිකෝණයේ කර්ණය?",
+          options: ["10", "14", "100", "48"],
+          correct_answer: 0,
+        },
+        {
+          id: 2,
+          question: "c=17, b=15 ත්‍රිකෝණයේ a = ?",
+          options: ["4", "6", "8", "10"],
+          correct_answer: 2,
+        },
+        {
+          id: 3,
+          question: "l=12, w=5 සෘජුකෝණාස්‍රයේ විකර්ණය?",
+          options: ["13", "17", "60", "169"],
+          correct_answer: 0,
+        },
+        {
+          id: 4,
+          question: "(0,0) සිට (3,4) දිග?",
+          options: ["3", "4", "5", "7"],
+          correct_answer: 2,
+        },
+        {
+          id: 5,
+          question: "a=5, b=5 ත්‍රිකෝණයේ කර්ණය? (√50=7.07)",
+          options: ["5", "7.07", "10", "25"],
+          correct_answer: 1,
+        },
+      ],
+    },
+  },
+
+  {
+    id: 1009,
+    title: "වර්ගඵලය සහ පරිමිතිය",
+    description: "සංයෝජිත හැඩතල ඇතුළු සමතල රූප වල වර්ගඵල සහ පරිමිති ගණනය.",
+    level: 2,
+    xp_reward: 60,
+    content: {
+      text: `වර්ගඵලය සහ පරිමිතිය
+
+ප්‍රධාන සූත්‍ර:
+
+සෘජුකෝණාස්‍රය (Rectangle):
+• පරිමිතිය = 2(l + w)
+• වර්ගඵලය = l × w
+
+හතරැස (Square):
+• පරිමිතිය = 4s
+• වර්ගඵලය = s²
+
+ත්‍රිකෝණ (Triangle):
+• පරිමිතිය = a + b + c
+• වර්ගඵලය = ½ × b × h
+
+සමාන්තරාස්‍රය (Parallelogram):
+• පරිමිතිය = 2(a + b)
+• වර්ගඵලය = b × h
+
+ව්‍යාදිය (Trapezium):
+• වර්ගඵලය = ½(a + b)h (a,b = සමාන්තර පාදා)
+
+රවුම (Circle):
+• π ≈ 3.14159
+• පරිධිය = 2πr = πd
+• වර්ගඵලය = πr²
+
+කෝෂ (Sector):
+• කෝෂ ප්‍රදේශ = (θ/360) × πr²
+• ශ්‍රේණිගත = (θ/360) × 2πr
+
+සංයෝජිත හැඩ:
+• කොටස් ලෙස බෙදා ගණනය කරන්න
+• ෙකොටස් ඉදිකිරීමෙන් ඇති නොවන කොටස් ඉවත් කරන්න`
+    },
+    quiz: {
+      questions: [
+        {
+          id: 1,
+          question: "රේඩියස් 7 cm රවුමේ වර්ගඵලය? (π=22/7)",
+          options: ["44 cm²", "154 cm²", "49 cm²", "22 cm²"],
+          correct_answer: 1,
+        },
+        {
+          id: 2,
+          question: "පාදය 8 m, උස 5 m ත්‍රිකෝණයේ වර්ගඵලය?",
+          options: ["40 m²", "13 m²", "20 m²", "80 m²"],
+          correct_answer: 2,
+        },
+        {
+          id: 3,
+          question: "l=12, w=5 සෘජුකෝණාස්‍රයේ පරිමිතිය?",
+          options: ["17 cm", "34 cm", "60 cm", "24 cm"],
+          correct_answer: 1,
+        },
+        {
+          id: 4,
+          question: "රේඩියස් 10 cm රවුමේ 90° කෝෂ ප්‍රදේශ? (π=3.14)",
+          options: ["31.4 cm²", "78.5 cm²", "314 cm²", "25 cm²"],
+          correct_answer: 1,
+        },
+        {
+          id: 5,
+          question: "සමාන්තර පාදා 6 cm, 10 cm, උස 4 cm ව්‍යාදිය වර්ගඵලය?",
+          options: ["40 cm²", "32 cm²", "64 cm²", "24 cm²"],
+          correct_answer: 1,
+        },
+      ],
+    },
+  },
+
+  {
+    id: 1010,
+    title: "පරිමාව සහ මතුපිට වර්ගඵලය",
+    description: "3D ඝන: ඝනකෝෂ, සිලින්ඩර, කෝණ, ගෝල ගේ පරිමා සහ මතුපිට ගණනය.",
+    level: 3,
+    xp_reward: 70,
+    content: {
+      text: `පරිමාව සහ මතුපිට වර්ගඵලය
+
+ඝනකෝෂ (Cuboid):
+• පරිමාව = l × w × h
+• සම්පූර්ණ මතුපිට = 2(lw + lh + wh)
+
+ඝනය (Cube):
+• පරිමාව = s³
+• සම්පූර්ණ මතුපිට = 6s²
+
+සිලින්ඩරය (Cylinder):
+• පරිමාව = πr²h
+• සම්පූර්ණ මතුපිට = 2πr² + 2πrh = 2πr(r + h)
+• ශ්‍රේණිගත = 2πrh (ශ්‍රේණිගත මාතර)
+
+කෝණය (Cone):
+• ශ්‍රේණිගත = l = √(r² + h²) (slant height)
+• පරිමාව = ⅓πr²h
+• සම්පූර්ණ මතුපිට = πr² + πrl = πr(r + l)
+
+ගෝලය (Sphere):
+• පරිමාව = 4/3πr³
+• මතුපිට = 4πr²
+
+Hemisphere:
+• පරිමාව = 2/3πr³
+• සම්පූර්ණ මතුපිට = 3πr²
+
+ව්‍යවහාරය:
+• හිස් රාලා ← හිස් කෙෂ ←  ← ← ← ←
+• density = mass ÷ volume`
+    },
+    quiz: {
+      questions: [
+        {
+          id: 1,
+          question: "r=3, h=10 සිලින්ඩරය පරිමාව? (π=3.14)",
+          options: ["282.6 cm³", "94.2 cm³", "113.1 cm³", "188.4 cm³"],
+          correct_answer: 0,
+        },
+        {
+          id: 2,
+          question: "l=4, w=3, h=5 ඝනකෝෂ මතුපිට?",
+          options: ["60 cm²", "94 cm²", "47 cm²", "120 cm²"],
+          correct_answer: 1,
+        },
+        {
+          id: 3,
+          question: "r=6 ගෝලය මතුපිට? (π=3.14)",
+          options: ["150.7 cm²", "452.2 cm²", "904.3 cm²", "113.1 cm²"],
+          correct_answer: 1,
+        },
+        {
+          id: 4,
+          question: "r=3, h=4 කෝණය l = ?",
+          options: ["3", "4", "5", "7"],
+          correct_answer: 2,
+        },
+        {
+          id: 5,
+          question: "s=5 ඝනය පරිමාව?",
+          options: ["25 cm³", "75 cm³", "125 cm³", "150 cm³"],
+          correct_answer: 2,
+        },
+      ],
+    },
+  },
+
+  {
+    id: 1011,
+    title: "සංඛ්‍යාන - දත්ත නිරූපණය",
+    description: "සංඛ්‍යාන වගු, histograms, pie charts සහ stem-and-leaf diagrams ෙයොදා දත්ත සංවිධානය.",
+    level: 3,
+    xp_reward: 70,
+    content: {
+      text: `සංඛ්‍යාන - දත්ත නිරූපණය
+
+දත්ත වර්ග:
+• ප්‍රාථමික (Primary): සෘජු එකතු කළ
+• ද්වීතීයික (Secondary): ඇත් ලෝකයේ ස්ථාපිත
+
+සංඛ්‍යාන වගුව (Frequency Table):
+• ෙකොටස - Tally mark - ගෙනිය
+• ෙකොටස් ස්ස = ශ්‍රේණිගත සංඛ්‍යාත
+
+Bar Chart:
+• ශ්‍රේණිගත දේ: ශ්‍රේණිගත
+• Y-axis: ගෙනිය
+• සමාන දිගකට ශ්‍රේණිගත
+
+Histogram:
+• අඛණ්ඩ දත්ත (continuous data)
+• ෙකොටස් අකාශ නොමැත
+• Y-axis: ගෙනිය / ශ්‍රේණිගත ශ්‍රේණිගත (frequency density)
+
+Pie Chart:
+• ෙකොටස් = (ගෙනිය/ගොඩ) × 360°
+• නිදසුන: 30 ශිෂ්‍යයන් අතරින් 12 ලේ → (12/30) × 360 = 144°
+
+Stem-and-Leaf:
+• ශ්‍රේණිගත: 23, 31, 45, 27, 19
+• Stem | Leaf: 1|9, 2|37, 3|1, 4|5
+
+Scatter Graph:
+• ශ්‍රේණිගත 2 ක් නිරූපණය
+• ශ්‍රේණිගතය: ශ්‍රේණිගත, ශ්‍රේණිගත, ශ්‍රේණිගත, ශ්‍රේණිගත, ශ්‍රේණිගත`
+    },
+    quiz: {
+      questions: [
+        {
+          id: 1,
+          question: "Pie chart ෙකොටස 45° නම් ශිෂ්‍ය ගෙනිය (ශිෂ්‍ය 120): ?",
+          options: ["10", "12", "15", "18"],
+          correct_answer: 2,
+        },
+        {
+          id: 2,
+          question: "Histogram bar height frequency density. width=5, height=3 නම් ගෙනිය?",
+          options: ["5", "8", "15", "3"],
+          correct_answer: 2,
+        },
+        {
+          id: 3,
+          question: "Stem-and-leaf: 3|4,7 – මෙය නිරූපණය?",
+          options: ["34, 37", "43, 73", "3.4, 3.7", "347"],
+          correct_answer: 0,
+        },
+        {
+          id: 4,
+          question: "Bar chart සහ Histogram වෙනස?",
+          options: ["Histogram ෙකොටස් අකාශ ඇත", "Bar chart ෙකොටස් සමාන", "Histogram අඛණ්ඩ දත්ත", "Histogram සෙෙකොනේ axis"],
+          correct_answer: 2,
+        },
+        {
+          id: 5,
+          question: "180 ශිෂ්‍යයන් අතර 60 කට ක්‍රීඩාව ප්‍රිය. Pie chart ෙකොටස?",
+          options: ["60°", "90°", "120°", "180°"],
+          correct_answer: 2,
+        },
+      ],
+    },
+  },
+
+  {
+    id: 1012,
+    title: "සංඛ්‍යාන - MiddleValue, MiddleValue, Mode සහ Range",
+    description: "ශ්‍රේණිගත නොකළ සහ ශ්‍රේණිගත දත්ත සඳහා කේන්ද්‍ර ප්‍රවණතා සහ විසිරීම ගණනය.",
+    level: 3,
+    xp_reward: 70,
+    content: {
+      text: `සංඛ්‍යාන - Mean, Median, Mode සහ Range
+
+Mean (සාමාන්‍ය):
+• Mean = ∑x / n = සම්පූර්ණ ෙකාත / ගෙනිය
+• නිදසුන: 3, 5, 7, 9, 11 → Mean = 35/5 = 7
+
+Median (මධ්‍ය):
+• ශ්‍රේණිගත කළ ශ්‍රේණිගතයේ මැද
+• ශ්‍රේණිගත ෙදනෙ: n ↔ (n+1)/2 ස්ථාන ශ්‍රේණිගතය
+• ශ්‍රේණිගත දෙකනෙ: n ↔ n/2 සහ n/2+1 ශ්‍රේණිගතය Mean
+• 3,5,7,9,11 → Median = 7
+• 3,5,7,9 → Median = (5+7)/2 = 6
+
+Mode (ශ්‍රේණිගත):
+• ශ්‍රේණිගතයේ සියල්ලට ශ්‍රේණිගත නිරූපිත
+• 3,5,5,7,9 → Mode = 5
+• ශ්‍රේණිගත ශ්‍රේණිගත ශ්‍රේණිගත: bimodal
+
+Range (ශ්‍රේණිගත):
+• Range = Maximum - Minimum
+• 3,5,7,9,11 → Range = 11-3 = 8
+
+ශ්‍රේණිගත ශ්‍රේණිගත Mean:
+• ∑fx / ∑f (f=ගෙනිය, x=ශ්‍රේණිගත)
+• Midpoint ← ← ← ← ← ← ←
+
+Interquartile Range (IQR):
+• Q1 (lower quartile), Q3 (upper quartile)
+• IQR = Q3 - Q1`
+    },
+    quiz: {
+      questions: [
+        {
+          id: 1,
+          question: "4, 7, 7, 9, 13 ශ්‍රේණිගතයේ Mean?",
+          options: ["7", "8", "9", "10"],
+          correct_answer: 1,
+        },
+        {
+          id: 2,
+          question: "2, 5, 7, 8, 10, 12 ශ්‍රේණිගතයේ Median?",
+          options: ["7", "7.5", "8", "6"],
+          correct_answer: 1,
+        },
+        {
+          id: 3,
+          question: "1,3,3,5,7,8,8 ශ්‍රේණිගතයේ Mode?",
+          options: ["3 සහ 5", "3 සහ 8", "8 ශ්‍රේණිගත", "5"],
+          correct_answer: 1,
+        },
+        {
+          id: 4,
+          question: "3,8,4,12,7,5 ශ්‍රේණිගතයේ Range?",
+          options: ["7", "8", "9", "10"],
+          correct_answer: 2,
+        },
+        {
+          id: 5,
+          question: "ශ්‍රේණිගත ශ්‍රේණිගතය: x=10,f=3; x=20,f=5; x=30,f=2. Mean?",
+          options: ["18", "20", "19", "15"],
+          correct_answer: 0,
+        },
+      ],
+    },
+  },
+
+  {
+    id: 1013,
+    title: "ත්‍රිකෝණමිති - Sin, Cos, Tan",
+    description: "දකුණු කෝණ ත්‍රිකෝණවල නොදන්නා පාදා සහ කෝණ ශ්‍රේණිගත.",
+    level: 3,
+    xp_reward: 70,
+    content: {
+      text: `ත්‍රිකෝණමිති (Trigonometry)
+
+ත්‍රිකෝණමිතික අනුපාත:
+• Sin θ = ශ්‍රේණිගත (opposite) / කර්ණය (hypotenuse) = O/H
+• Cos θ = යාබ (adjacent) / කර්ණය = A/H
+• Tan θ = ශ්‍රේණිගත / යාබ = O/A
+
+SOH-CAH-TOA (මනස):
+• SOH: Sin = Opposite/Hypotenuse
+• CAH: Cos = Adjacent/Hypotenuse
+• TOA: Tan = Opposite/Adjacent
+
+ශ්‍රේණිගත:
+• sin 30° = 0.5, sin 45° = 0.707, sin 60° = 0.866
+• cos 30° = 0.866, cos 45° = 0.707, cos 60° = 0.5
+• tan 30° = 0.577, tan 45° = 1, tan 60° = 1.732
+
+නොදන්නා පාදය සොයීම:
+• θ = 30°, h = 10 → O = 10 × sin 30° = 5
+• θ = 45°, A = 7 → O = 7 × tan 45° = 7
+
+නොදන්නා කෝණය සොයීම:
+• sin θ = 0.6 → θ = sin⁻¹(0.6) = 36.87°
+• Calculator: 2nd sin (0.6) = 36.87°
+
+සතිය ශ්‍රේණිගත:
+• Elevation angle = ශ්‍රේණිගත ශ්‍රේණිගත
+• Depression angle = ශ්‍රේණිගත ශ්‍රේණිගත`
+    },
+    quiz: {
+      questions: [
+        {
+          id: 1,
+          question: "h=20, θ=30°. O = sin30° × 20 = ?",
+          options: ["10", "15", "17.3", "20"],
+          correct_answer: 0,
+        },
+        {
+          id: 2,
+          question: "O=5, H=10. sin θ = ?",
+          options: ["0.3", "0.4", "0.5", "0.6"],
+          correct_answer: 2,
+        },
+        {
+          id: 3,
+          question: "θ=45°, A=8. O = ?",
+          options: ["4", "8", "11.3", "5.66"],
+          correct_answer: 1,
+        },
+        {
+          id: 4,
+          question: "tan θ = 1 → θ = ?",
+          options: ["30°", "45°", "60°", "90°"],
+          correct_answer: 1,
+        },
+        {
+          id: 5,
+          question: "θ=60°, H=14. A = cos60° × 14 = ?",
+          options: ["12.1", "7", "8.5", "11"],
+          correct_answer: 1,
+        },
+      ],
+    },
+  },
+
+  {
+    id: 1014,
+    title: "කෑලි සහ Venn Diagrams",
+    description: "කෑලි සංකේත, ක්‍රියා (ශ්‍රේණිගත, කෙලවරය, ශ්‍රේණිගත), Venn Diagrams ෙෙශ ශ්‍රේණිගත.",
+    level: 3,
+    xp_reward: 70,
+    content: {
+      text: `කෑලි සහ Venn Diagrams
+
+මූලික නිර්වචන:
+• ශ්‍රේණිගත (Universal set) ε - ශ්‍රේෂ ශ්‍රේණිගත
+• A ← ε  → A ε හි ශ්‍රේණිගත
+• {} හෝ ∅ = ශ්‍රේෂ කෑලි
+
+සංකේත:
+• ∈ - ශ්‍රේෂ
+• ∉ - ශ්‍රේෂ නොවේ
+• ⊂ - ශ්‍රේෂ (subset)
+• |A| හෝ n(A) - ශ්‍රේෂ ශ්‍රේෂ
+
+ක්‍රියා:
+• ශ්‍රේෂ (Union): A ∪ B - A හෝ B හෝ දෙකෙහිම
+• කෙලවරය (Intersection): A ∩ B - A සහ B හෝ දෙකෙහිම
+• ශ්‍රේෂ (Complement): A' - ε හෝ A ශ්‍රේෂ නොවන
+
+Venn Diagram:
+• ශ්‍රේෂ ← ← ← ←
+• A = {1,2,3}, B = {2,3,4,5}
+• A ∩ B = {2,3}
+• A ∪ B = {1,2,3,4,5}
+
+De Morgan's Laws:
+• (A ∪ B)' = A' ∩ B'
+• (A ∩ B)' = A' ∪ B'
+
+ගැටළු ශ්‍රේෂ:
+• n(A ∪ B) = n(A) + n(B) - n(A ∩ B)
+• n(A ∩ B) = n(A) + n(B) - n(A ∪ B)`
+    },
+    quiz: {
+      questions: [
+        {
+          id: 1,
+          question: "A={2,4,6,8}, B={4,8,12}. A∩B = ?",
+          options: ["{2,4,6,8,12}", "{4,8}", "{2,6}", "{12}"],
+          correct_answer: 1,
+        },
+        {
+          id: 2,
+          question: "n(A)=15, n(B)=10, n(A∩B)=5. n(A∪B)=?",
+          options: ["20", "25", "30", "10"],
+          correct_answer: 0,
+        },
+        {
+          id: 3,
+          question: "ε={1-10}, A={1,3,5,7,9}. A'=?",
+          options: ["{2,4,6,8,10}", "{1,2,3,4,5}", "{6,7,8,9,10}", "{1,3,5}"],
+          correct_answer: 0,
+        },
+        {
+          id: 4,
+          question: "De Morgan: (A∪B)' = ?",
+          options: ["A'∪B'", "A'∩B'", "A∩B", "A'"],
+          correct_answer: 1,
+        },
+        {
+          id: 5,
+          question: "A⊂B යන්නේ අදහස?",
+          options: ["A=B", "B ← A", "A ← B", "A∩B=∅"],
+          correct_answer: 2,
+        },
+      ],
+    },
+  },
+
+  {
+    id: 1015,
+    title: "Graph සහ Functions",
+    description: "Cartesian coordinates, රේඛීය graph, gradient, සහ ජීවිත graph ශ්‍රේෂ.",
+    level: 3,
+    xp_reward: 70,
+    content: {
+      text: `Graph සහ Functions
+
+Cartesian Coordinates:
+• (x, y) ← ← ← ←
+• X-axis: ← ←, Y-axis: ← ←
+• Quadrant I: (+,+), II: (-,+), III: (-,-), IV: (+,-)
+
+රේඛීය Graph (Linear Graph):
+• y = mx + c
+• m = gradient (slope)
+• c = y-intercept
+
+Gradient:
+• m = (y₂ - y₁) / (x₂ - x₁)
+• (1,3) සිට (4,9): m = (9-3)/(4-1) = 6/3 = 2
+• ← ← gradient = ← ←
+
+Parallel Lines:
+• ← ← gradient m ← ←
+• y = 2x + 3 සහ y = 2x - 1: parallel
+
+Perpendicular Lines:
+• m₁ × m₂ = -1
+• m₁ = 2 → m₂ = -1/2
+
+Functions:
+• f(x) = 3x + 2
+• f(3) = 3(3) + 2 = 11
+• Domain, Range
+
+Graph of y = x²:
+• Parabola (U shape)
+• Vertex, axis of symmetry`
+    },
+    quiz: {
+      questions: [
+        {
+          id: 1,
+          question: "(2,5) සිට (6,13) gradient?",
+          options: ["1", "1.5", "2", "2.5"],
+          correct_answer: 2,
+        },
+        {
+          id: 2,
+          question: "y = 3x - 4 හි y-intercept?",
+          options: ["3", "-4", "4", "-3"],
+          correct_answer: 1,
+        },
+        {
+          id: 3,
+          question: "f(x) = 2x² + 3. f(4) = ?",
+          options: ["35", "11", "32", "19"],
+          correct_answer: 0,
+        },
+        {
+          id: 4,
+          question: "y = 5x + 2 ට parallel රේඛා?",
+          options: ["y = -5x + 2", "y = 5x - 7", "y = x/5 + 2", "y = 2x + 5"],
+          correct_answer: 1,
+        },
+        {
+          id: 5,
+          question: "m = 4 ට perpendicular m = ?",
+          options: ["4", "-4", "1/4", "-1/4"],
+          correct_answer: 3,
+        },
+      ],
+    },
+  },
+
+  {
+    id: 1016,
+    title: "Simultaneous Equations",
+    description: "Substitution සහ elimination ශ්‍රේෂ.",
+    level: 3,
+    xp_reward: 70,
+    content: {
+      text: `Simultaneous Equations
+
+Substitution ශ්‍රේෂ:
+• y = 2x + 1 ... (1)
+• 3x + 2y = 13 ... (2)
+• (1) ← (2): 3x + 2(2x+1) = 13
+• 7x + 2 = 13 → x = 11/7 ← ←
+
+Elimination ශ්‍රේෂ:
+• 2x + 3y = 12 ... (1)
+• 4x - y = 2 ... (2)
+• (2) × 3: 12x - 3y = 6 ... (3)
+• (1) + (3): 14x = 18 → x = 9/7 ← ←
+• y ← ←
+
+Example:
+• x + y = 10 ... (1)
+• x - y = 4 ... (2)
+• (1)+(2): 2x = 14 → x = 7
+• y = 3
+
+ශ්‍රේෂ ← ← ←:
+• ← ← ← ←
+• 2 equations, 2 unknowns ← ←
+
+Graph ← ←:
+• ← ← ← ← ←
+• intersection point ← ←`
+    },
+    quiz: {
+      questions: [
+        {
+          id: 1,
+          question: "x+y=9, x-y=3. x=?",
+          options: ["3", "4", "5", "6"],
+          correct_answer: 3,
+        },
+        {
+          id: 2,
+          question: "2x+y=14, x+y=8. x=?",
+          options: ["4", "5", "6", "7"],
+          correct_answer: 2,
+        },
+        {
+          id: 3,
+          question: "3x-2y=11, x+2y=9. x=?",
+          options: ["3", "4", "5", "6"],
+          correct_answer: 2,
+        },
+        {
+          id: 4,
+          question: "y=3x-2, 2x+y=13. x=?",
+          options: ["2", "3", "4", "5"],
+          correct_answer: 1,
+        },
+        {
+          id: 5,
+          question: "4x+3y=24, 2x-y=2. y=?",
+          options: ["2", "3", "4", "5"],
+          correct_answer: 2,
+        },
+      ],
+    },
+  },
+
+  {
+    id: 1017,
+    title: "Quadratic Equations",
+    description: "Factorisation, completing the square, quadratic formula.",
+    level: 4,
+    xp_reward: 80,
+    content: {
+      text: `Quadratic Equations
+
+ax² + bx + c = 0 ශ්‍රේෂ
+
+Factorisation:
+• x² + 5x + 6 = 0
+• (x+2)(x+3) = 0
+• x = -2 හෝ x = -3
+
+x² - 5x = 0:
+• x(x-5) = 0
+• x = 0 හෝ x = 5
+
+Difference of Squares:
+• x² - 9 = 0
+• (x+3)(x-3) = 0
+• x = ±3
+
+Quadratic Formula:
+• x = [-b ± √(b²-4ac)] / 2a
+
+Discriminant (b²-4ac):
+• > 0: ශ්‍රේෂ ← ←
+• = 0: ← ← ←
+• < 0: ← ← ← ←
+
+Example (Formula):
+• 2x² - 5x + 2 = 0
+• a=2, b=-5, c=2
+• x = [5 ± √(25-16)] / 4
+• x = [5 ± 3] / 4 → x = 2 හෝ x = 0.5
+
+Completing the Square:
+• x² + 6x - 7 = 0
+• (x+3)² - 9 - 7 = 0
+• (x+3)² = 16
+• x+3 = ±4 → x = 1 හෝ x = -7`
+    },
+    quiz: {
+      questions: [
+        {
+          id: 1,
+          question: "x² - 7x + 12 = 0. x = ?",
+          options: ["3,4", "-3,-4", "3,-4", "-3,4"],
+          correct_answer: 0,
+        },
+        {
+          id: 2,
+          question: "x² - 25 = 0. x = ?",
+          options: ["5", "-5", "±5", "±25"],
+          correct_answer: 2,
+        },
+        {
+          id: 3,
+          question: "2x² + x - 6 = 0. x = ?",
+          options: ["-2, 3/2", "2, -3/2", "1, -3", "-1, 3"],
+          correct_answer: 1,
+        },
+        {
+          id: 4,
+          question: "b²-4ac = -5. ← ←?",
+          options: ["← ← ←", "← ←", "← ← ← ←", "← ←"],
+          correct_answer: 2,
+        },
+        {
+          id: 5,
+          question: "x² + 4x - 5 = 0 Factorisation?",
+          options: ["(x+5)(x-1)", "(x-5)(x+1)", "(x+1)(x-5)", "(x+5)(x+1)"],
+          correct_answer: 0,
+        },
+      ],
+    },
+  },
+
+  {
+    id: 1018,
+    title: "Surds සහ Logarithms",
+    description: "Surds සරල කිරීම, radical expressions, logarithms.",
+    level: 4,
+    xp_reward: 80,
+    content: {
+      text: `Surds සහ Logarithms
+
+Surds:
+• Irrational square roots: √2, √3, √5
+• √12 = √(4×3) = 2√3
+• √(a×b) = √a × √b
+• √(a/b) = √a / √b
+
+Surds ← ←:
+• 3√2 + 5√2 = 8√2
+• 2√3 × 4√3 = 8 × 3 = 24
+• (√5)² = 5
+
+Rationalising:
+• 1/√3 = √3/3 (√3 ← ←)
+• 1/(2+√3) = (2-√3)/((2+√3)(2-√3)) = (2-√3)/1
+
+Logarithms:
+• logₐ(x) = y ↔ aʸ = x
+• log₁₀(1000) = 3 (10³ = 1000)
+• log₂(8) = 3 (2³ = 8)
+
+Log Rules:
+• log(ab) = log(a) + log(b)
+• log(a/b) = log(a) - log(b)
+• log(aⁿ) = n·log(a)
+• log(1) = 0
+
+Natural Log:
+• ln(x) = logₑ(x)
+• e ≈ 2.718`
+    },
+    quiz: {
+      questions: [
+        {
+          id: 1,
+          question: "√75 සරල?",
+          options: ["5√3", "3√5", "15√3", "25√3"],
+          correct_answer: 0,
+        },
+        {
+          id: 2,
+          question: "3√2 × 2√8 = ?",
+          options: ["6√16", "24", "6√10", "12√2"],
+          correct_answer: 1,
+        },
+        {
+          id: 3,
+          question: "log₂(32) = ?",
+          options: ["3", "4", "5", "6"],
+          correct_answer: 2,
+        },
+        {
+          id: 4,
+          question: "log(6) + log(5) = ?",
+          options: ["log(11)", "log(30)", "log(1)", "log(3)"],
+          correct_answer: 1,
+        },
+        {
+          id: 5,
+          question: "2log(3) + log(4) = ?",
+          options: ["log(10)", "log(36)", "log(13)", "log(18)"],
+          correct_answer: 1,
+        },
+      ],
+    },
+  },
+
+  {
+    id: 1019,
+    title: "Matrices",
+    description: "Matrices හැඳින්වීම, ශ්‍රේෂ ← ←, ← ← ← ←.",
+    level: 4,
+    xp_reward: 80,
+    content: {
+      text: `Matrices
+
+Matrix ← ←:
+• ← ← ← ← m×n (m rows, n columns)
+• [[a b], [c d]] → 2×2 matrix
+
+Matrix Addition/Subtraction:
+• ← ← ← ← ← ← ←
+• [[1,2],[3,4]] + [[5,6],[7,8]] = [[6,8],[10,12]]
+
+Scalar Multiplication:
+• k × [[a,b],[c,d]] = [[ka,kb],[kc,kd]]
+• 2 × [[1,3],[2,4]] = [[2,6],[4,8]]
+
+Matrix Multiplication:
+• A(m×n) × B(n×p) = C(m×p)
+• [[a,b],[c,d]] × [[e,f],[g,h]] = [[ae+bg, af+bh],[ce+dg, cf+dh]]
+
+Determinant (2×2):
+• |A| = ad - bc
+• [[3,4],[2,5]] → |A| = 15-8 = 7
+
+Inverse Matrix:
+• A⁻¹ = (1/|A|) × [[d,-b],[-c,a]]
+• A × A⁻¹ = I (Identity Matrix)
+
+Solving Equations:
+• AX = B → X = A⁻¹B
+• [[2,1],[1,3]][x,y] = [8,9] → x=3, y=2`
+    },
+    quiz: {
+      questions: [
+        {
+          id: 1,
+          question: "[[1,2],[3,4]] + [[2,1],[1,2]] = ?",
+          options: ["[[3,3],[4,6]]", "[[3,3],[3,3]]", "[[2,2],[4,8]]", "[[1,3],[2,6]]"],
+          correct_answer: 0,
+        },
+        {
+          id: 2,
+          question: "3 × [[1,2],[0,1]] = ?",
+          options: ["[[3,6],[0,3]]", "[[3,2],[0,1]]", "[[1,6],[0,3]]", "[[3,6],[1,3]]"],
+          correct_answer: 0,
+        },
+        {
+          id: 3,
+          question: "[[2,3],[1,4]] det = ?",
+          options: ["5", "8", "11", "6"],
+          correct_answer: 0,
+        },
+        {
+          id: 4,
+          question: "[[1,0],[0,1]] × [[3,4],[5,6]] = ?",
+          options: ["[[3,0],[0,6]]", "[[3,4],[5,6]]", "[[1,4],[5,1]]", "[[4,3],[6,5]]"],
+          correct_answer: 1,
+        },
+        {
+          id: 5,
+          question: "2×2 ← ← ← ← ← ← ← ← ← ←?",
+          options: ["Det ← ←", "Det = 1", "Det ← ← ← ← ←", "Det = 0"],
+          correct_answer: 3,
+        },
+      ],
+    },
+  },
+
+  {
+    id: 1020,
+    title: "Circle Theorems",
+    description: "Circles ← ←, ← ← ← ←, chords, tangents, cyclic quadrilaterals.",
+    level: 4,
+    xp_reward: 80,
+    content: {
+      text: `Circle Theorems
+
+Theorem 1 - Angle at Centre:
+• ← ← ← ← ← ← ← ← ← ←
+• ← ← ← = 2 × ← ← ← ←
+
+Theorem 2 - Angle in Semicircle:
+• ← ← ← ← ← ← ← ← ← ← 90°
+
+Theorem 3 - Angles in Same Segment:
+• ← ← ← ← ← ← ← ← ← ←
+
+Theorem 4 - Cyclic Quadrilateral:
+• ← ← ← ← ← ← ← ← = 180° (opposite angles)
+• a + c = 180°, b + d = 180°
+
+Theorem 5 - Tangent to Radius:
+• ← ← ← ← ← ← ← ← ← 90°
+
+Theorem 6 - Tangent from External Point:
+• ← ← ← ← ← ← ← ← ←
+
+Theorem 7 - Alternate Segment:
+• ← ← ← ← ← ← ← ← ← ←
+
+Chord Properties:
+• ← ← ← ← ← ← ← ← ←
+• ← ← ← ← ← ← ← ← ← ←
+
+Intersecting Chords:
+• AB × BC = DB × BE`
+    },
+    quiz: {
+      questions: [
+        {
+          id: 1,
+          question: "← ← ← ← 30°. ← ← ← ←?",
+          options: ["15°", "30°", "60°", "90°"],
+          correct_answer: 2,
+        },
+        {
+          id: 2,
+          question: "← ← ← ← ← 90°?",
+          options: ["← ← ← ←", "← ← ← ←", "← ← ← ←", "← ← ← ←"],
+          correct_answer: 1,
+        },
+        {
+          id: 3,
+          question: "Cyclic quad. ← ← 75°. ← ← ← ←?",
+          options: ["75°", "105°", "115°", "95°"],
+          correct_answer: 1,
+        },
+        {
+          id: 4,
+          question: "Tangent ← ← ← ← ← ←?",
+          options: ["180°", "90°", "45°", "60°"],
+          correct_answer: 1,
+        },
+        {
+          id: 5,
+          question: "← ← ← ← ← ← 80°. ← ← ← ← ← ←?",
+          options: ["40°", "80°", "160°", "20°"],
+          correct_answer: 0,
+        },
+      ],
+    },
+  },
+];
