@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from pathlib import Path
 
 # Load .env from project root (two levels up from this file)
-_env_path = Path(__file__).resolve().parent.parent.parent / ".env"
+_env_path = Path(__file__).resolve().parent.parent / ".env"
 load_dotenv(dotenv_path=_env_path)
 
 # Get database URL from environment

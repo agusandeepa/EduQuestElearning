@@ -10,7 +10,7 @@ from app.auth import hash_password, verify_password, create_access_token
 import os
 from pathlib import Path
 from dotenv import load_dotenv
-_env_path = Path(__file__).resolve().parent.parent.parent.parent / ".env"
+_env_path = Path(__file__).resolve().parent.parent.parent / ".env"
 load_dotenv(dotenv_path=_env_path)
 
 router = APIRouter(prefix="/api/auth", tags=["Authentication"])
